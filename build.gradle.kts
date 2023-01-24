@@ -15,11 +15,7 @@ application {
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
 }
-tasks.withType<Jar> {
-    manifest {
-        attributes["Main-Class"] = "abhishekkumar.me.ApplicationKt"
-    }
-}
+
 repositories {
     mavenCentral()
 }
