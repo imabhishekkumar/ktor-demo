@@ -1,0 +1,1 @@
+rootProject.name = "ktor-railway-demo"
